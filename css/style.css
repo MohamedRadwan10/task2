@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+}
+.section {
+  padding: 100px 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+.content {
+}
+.item {
+  width: 30%;
+  float: left;
+  padding: 30px 0;
+}
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 30px 0;
+  background: -webkit-linear-gradient(top, rgb(75, 14, 218), rgb(76, 64, 240));
+}
+.circle h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+.circle span {
+  color: rgb(144, 143, 143);
+}
+.item h3 {
+  text-transform: capitalize;
+}
+.item1-h3 {
+  color: rgb(201, 201, 201);
+}
+.p1 {
+  width: 64%;
+  margin: 15px auto;
+  color: rgb(201, 201, 201);
+}
+.item1 h2 {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 700;
+}
+.item1 {
+  position: relative;
+  background: rgb(76, 64, 240);
+  margin-left: 20%;
+  text-align: center;
+  z-index: 1;
+  border-radius: 20px;
+}
+.item2 {
+  box-shadow: 1px 8px 50px 1px rgba(77, 124, 226, 0.144);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.div1 {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.icon {
+  float: left;
+  width: 50%;
+  word-spacing: 20px;
+}
+.perc {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.icon svg {
+  margin-left: 20px;
+}
+.div {
+  background-color: rgba(255, 85, 85, 0.08);
+}
+.div .icon .div-span {
+  color: #f55;
+}
+.div2 {
+  background-color: rgba(255, 176, 30, 0.08);
+}
+.div2 .icon .div-span {
+  color: #ffb21e;
+}
+.div3 {
+  background-color: rgba(0, 187, 143, 0.08);
+}
+.div3 .icon .div-span {
+  color: #00bb8f;
+}
+.div4 {
+  background-color: rgba(17, 37, 214, 0.08);
+}
+.div4 .icon .div-span {
+  color: #1125d6;
+}
+.div-span {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.div-span2 {
+  font-weight: 700;
+}
+.div-span3 {
+  color: rgb(174, 174, 174);
+}
+.btn {
+  width: 90%;
+  padding: 13px 0;
+  border-radius: 20px;
+  border: 0;
+  margin-top: 30px;
+  background-color: rgb(64, 64, 83);
+  color: #fff;
+  text-transform: capitalize;
+}
+.btn:active {
+  background-color: rgb(76, 64, 240);
+  cursor: pointer;
+}
+.item1::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 5%;
+  bottom: 0;
+  background-color: rgb(76, 64, 240);
+  z-index: -1;
+  border-radius: 20px;
+}
